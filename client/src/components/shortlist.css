@@ -1,0 +1,27 @@
+.shortlist {
+    height: inherit;
+    width: inherit;
+    background-color: #06f;
+    border-radius: 5px;
+    transform: translateX(0.8rem) translateY(0.8rem);
+    z-index: 1;
+    position: relative;
+}
+
+.shortlistHeadings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.shortlistHeadings span, .shortlistStats span {
+    font-weight: 600;
+}
+
+.shortlistStats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
