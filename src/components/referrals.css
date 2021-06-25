@@ -1,0 +1,45 @@
+/* .referrals {
+    width: 100%;
+    height: 100%;
+} */
+
+.referralsHeadings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 2rem;
+}
+
+.referralsHeadings span {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.campaignStats {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.campaignItem {
+    margin-top: 1rem;
+    padding: 0.1rem 2rem;
+}
+
+.campaignOptions {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.campaignOptions button {
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    flex: 1;
+}

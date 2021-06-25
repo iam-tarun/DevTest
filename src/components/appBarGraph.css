@@ -1,0 +1,17 @@
+/* .appBarGraph {
+    width: 100%;
+    height: 100%;
+} */
+
+.barGraphTab {
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.barItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+

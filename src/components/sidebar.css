@@ -8,10 +8,11 @@
 }
 
 .logo {
+    padding-bottom: 1rem;
     padding-top: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
-    flex: 1;
+    
 }
 
 .menu {

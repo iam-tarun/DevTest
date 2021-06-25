@@ -1,0 +1,11 @@
+.open {
+    width: 100%;
+    height: 100%;
+}
+
+.openTab {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    align-items: center;
+}

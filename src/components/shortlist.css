@@ -1,6 +1,6 @@
 .shortlist {
-    height: inherit;
-    width: inherit;
+    /* height: inherit;
+    width: inherit; */
     background-color: #06f;
     border-radius: 5px;
     transform: translateX(0.8rem) translateY(0.8rem);
