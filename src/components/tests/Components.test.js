@@ -42,11 +42,6 @@ it("Rejected app componentrenders correctly", () => {
     expect(queryByTestId('rejectedApps')).toBeTruthy();
 })
 
-it("AppGraph component renders correctly", () => {
-    const {queryByTestId} = render(<AppGraph />)
-    expect(queryByTestId('appGraphComponent')).toBeTruthy();
-})
-
 it("AppBarGraph component renders correctly", () => {
     const {queryByTestId} = render(<AppBarGraph />)
     expect(queryByTestId('appBarGraph')).toBeTruthy();
@@ -55,11 +50,6 @@ it("AppBarGraph component renders correctly", () => {
 it("Referrals component renders correctly", () => {
     const {queryByTestId} = render(<Referrals />)
     expect(queryByTestId('referrals')).toBeTruthy();
-})
-
-it("Open component renders correctly", () => {
-    const {queryByTestId} = render(<Open />)
-    expect(queryByTestId('openComponent')).toBeTruthy();
 })
 
 it("NewApps component renders correctly", () => {

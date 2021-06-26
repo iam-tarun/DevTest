@@ -30,7 +30,7 @@ const Open = () => {
                 <div><span style={{fontSize:'0.6rem', fontWeight:'600'}} >Open Positions by Department</span></div>
                 <div><BiDotsHorizontalRounded className="dropdown" style={{fontSize:'1.4rem'}} /></div>
             </div>
-            {window.onload = () => (<Doughnut data={data} />)}
+            <Doughnut data={data} />
         </div>
     )
 }

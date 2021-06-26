@@ -45,7 +45,7 @@ const AppGraph = () => {
                 </div>
             </div>
            <div>
-               {window.onload = () => (<Bar data={data} height={120} />)} 
+               <Bar data={data} height={120} />
            </div>
         </div>
     )
