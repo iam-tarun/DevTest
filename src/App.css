@@ -2,6 +2,16 @@
   --main-radius: 5px;
 }
 
+@viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+
 .App {
   height: 100%;
   display: grid;
@@ -13,17 +23,16 @@
   "sidebar totalApps shortList rejected newApps"
   "sidebar appGraph appGraph appBarGraph newApps"
   "sidebar referrals referrals openPositions newApps";
-  padding-top: 0.2rem;
   gap:1.6rem;
+  margin:0;
+  padding:0;
 }
 
 #sidebar {
   grid-area: sidebar;
   height: 100%;
-  width: 2.4rem;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
   position: fixed;
-  z-index: 10;
   background-color:black;
 }
 
@@ -84,22 +93,50 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .App {
-    width: 100vw;
-    grid-template-columns: 1fr 0.1fr;
-    grid-template-rows: 0.1fr 0.2fr 0.6fr 0.6fr 0.6fr 1.2fr 1.2fr 1.2fr 1.2fr 2fr;
+    height: 140vh;
+    /* width: 100vw; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "sidebar navbar"
-    "sidebar title"
-    "sidebar totalApps"
-    "sidebar shortList"
-    "sidebar rejected"
-    "sidebar appGraph"
-    "sidebar appBarGraph"
-    "sidebar referrals"
-    "sidebar openPositions"
-    "sidebar newApps";
-    gap: 2rem;
+    "navbar"
+    "title"
+    "totalApps"
+    "shortList"
+    "rejected"
+    "appGraph"
+    "appBarGraph"
+    "referrals"
+    "openPositions"
+    "newApps";
+    gap: 0.5rem;
   } 
+  #sidebar {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .App {
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "navbar"
+    "title"
+    "totalApps"
+    "shortList"
+    "rejected"
+    "appGraph"
+    "appBarGraph"
+    "referrals"
+    "openPositions"
+    "newApps";
+    gap: 0.2rem;
+  } 
+  #sidebar {
+    display:none;
+  }
 }

@@ -1,7 +1,7 @@
-/* .referrals {
+.referrals {
     width: 100%;
     height: 100%;
-} */
+}
 
 .referralsHeadings {
     display: flex;
@@ -42,4 +42,16 @@
     cursor: pointer;
     border-radius: 3px;
     flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .referralsHeadings {
+        display: block;
+    }
+    .campaignStats {
+        display: block;
+    }
+    .campaignItem {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
 }

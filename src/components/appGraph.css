@@ -1,7 +1,7 @@
-/* .appGraph {
+.appGraph {
     width: 100%;
     height: 100%;
-} */
+}
 
 .graphTabs {
     display: flex;
@@ -18,4 +18,14 @@
     font-size:0.6rem;
     margin: 0.3rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .graphTabs {
+        display: block;
+    }
+    .options {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

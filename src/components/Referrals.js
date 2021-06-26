@@ -8,8 +8,8 @@ const Referrals = () => {
         <div className="referrals" >
             <div className="referralsHeadings" >
                     <span style={{flex:'1', fontWeight:'600'}} >Referrals and Campaign Stats</span>
-                    <IoPaperPlaneOutline style={{margin:'0.5rem', color:'red'}} />
                     <div>
+                    <IoPaperPlaneOutline style={{margin:'0.5rem', color:'red'}} />
                         <span style={{color:'red'}} >40 Campaigns sent in total</span> 
                         <br/>
                         <span>4 Campaigns sent in last month</span>

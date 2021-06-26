@@ -51,3 +51,23 @@
     outline: none;
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        display: block;
+    }
+    .dashboard {
+        margin: 1rem;
+    }
+    .search {
+        margin: 1rem;
+        width: min(80%, 70rem)
+    }
+    .search button {
+        font-size: 0.8rem;
+    }
+    .addIcon {
+        font-size: 0.4rem;
+        padding: 0;
+    }
+}

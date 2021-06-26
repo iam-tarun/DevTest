@@ -25,3 +25,9 @@
     align-items: center;
     padding: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .shortlist {
+        transform: translateX(0rem) translateY(0rem);
+    }
+}

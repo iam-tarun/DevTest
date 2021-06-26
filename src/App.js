@@ -39,9 +39,15 @@ function App() {
       <div id="appBarGraph">
         <AppBarGraph />
       </div>
-      <div id="referrals"><Referrals /></div>
-      <div id="openPositions"> <Open /> </div>
-      <div id="newApps"> <NewApp/> </div>
+      <div id="referrals">
+      <Referrals />
+      </div>
+      <div id="openPositions"> 
+      <Open /> 
+      </div>
+      <div id="newApps">
+       <NewApp/> 
+       </div>
     </div>
   );
 }

@@ -20,7 +20,7 @@ const AppBarGraph = () => {
                 <ProgressBar width="7rem" completed={50} bgColor='red' baseBgColor='gray' isLabelVisible={false} height='0.8rem' />
             </div>
             <div className="barItem">
-            <li>Ob hold</li>
+            <li>On hold</li>
                 <ProgressBar width="7rem" completed={20} bgColor='white' baseBgColor='gray' isLabelVisible={false} height='0.8rem' />
             </div>
             <div className="barItem">
