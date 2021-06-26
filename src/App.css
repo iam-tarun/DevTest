@@ -95,41 +95,52 @@
 
 @media screen and (max-width: 768px) {
   .App {
-    height: 140vh;
-    grid-template-columns: 0.1fr 1fr;
-    grid-template-rows: 0.1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "sidebar navbar"
-    "sidebar title"
-    "sidebar totalApps"
-    "sidebar shortList"
-    "sidebar rejected"
-    "sidebar appGraph"
-    "sidebar appBarGraph"
-    "sidebar referrals"
-    "sidebar openPositions"
-    "sidebar newApps";
-    gap: 0.2rem;
+    height: 180vh;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sidebar" 
+    "navbar"
+    "title"
+    "totalApps"
+    "shortList"
+    "rejected"
+    "appGraph"
+    "appBarGraph"
+    "referrals"
+    "openPositions"
+    "newApps";
+    gap: 0.4rem;
   } 
+  #sidebar {
+    grid-area:sidebar;
+    height:2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .App {
-    height: 100vh;
-    grid-template-columns: 0.1fr 1fr;
-    grid-template-rows: 0.1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "sidebar navbar"
-    "sidebar title"
-    "sidebar totalApps"
-    "sidebar shortList"
-    "sidebar rejected"
-    "sidebar appGraph"
-    "sidebar appBarGraph"
-    "sidebar referrals"
-    "sidebar openPositions"
-    "sidebar newApps";
+    height: 180vh;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.1fr 0.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "sidebar" 
+    "navbar"
+    "title"
+    "totalApps"
+    "shortList"
+    "rejected"
+    "appGraph"
+    "appBarGraph"
+    "referrals"
+    "openPositions"
+    "newApps";
     gap: 0.2rem;
   } 
-  
+  #sidebar {
+    grid-area:sidebar;
+    height:2rem;
+  }
 }

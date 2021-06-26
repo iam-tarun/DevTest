@@ -4,7 +4,7 @@
     background-color: #06f;
     border-radius: 5px;
     transform: translateX(0.8rem) translateY(0.8rem);
-    z-index: 1;
+    z-index: 0;
     position: relative;
 }
 
@@ -28,6 +28,7 @@
 
 @media screen and (max-width: 768px) {
     .shortlist {
-        transform: translateX(0rem) translateY(0rem);
+        transform: none;
+        z-index: -1;
     }
 }

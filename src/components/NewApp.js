@@ -28,7 +28,7 @@ const NewApp = () => {
                 <div className="applicant" >
                     <div><CgProfile style={{fontSize:'2rem'}} /></div>
                     <div style={{flex:'1', margin:'0 1rem'}} >
-                        <span style={{fontSize:'1rem'}} >Rosie Metts</span> <br/>
+                        <span style={{fontSize:'1rem'}} >James Scott</span> <br/>
                         <span style={{fontSize:'0.6rem', color:'blue'}} >Applied for Marketing Manage</span>
                     </div>
                     <div><ImMail4 style={{margin:'0 1rem'}} /></div>
@@ -37,7 +37,7 @@ const NewApp = () => {
                 <div className="applicant" >
                     <div><CgProfile style={{fontSize:'2rem'}} /></div>
                     <div style={{flex:'1', margin:'0 1rem'}} >
-                        <span style={{fontSize:'1rem'}} >Rosie Metts</span> <br/>
+                        <span style={{fontSize:'0.9rem'}} >Jamie Laurenson</span> <br/>
                         <span style={{fontSize:'0.6rem', color:'blue'}} >Applied for Marketing Manage</span>
                     </div>
                     <div><ImMail4 style={{margin:'0 1rem'}} /></div>
@@ -46,7 +46,7 @@ const NewApp = () => {
                 <div className="applicant" >
                     <div><CgProfile style={{fontSize:'2rem'}} /></div>
                     <div style={{flex:'1', margin:'0 1rem'}} >
-                        <span style={{fontSize:'1rem'}} >Rosie Metts</span> <br/>
+                        <span style={{fontSize:'1rem'}} >Elizabeth Hurton</span> <br/>
                         <span style={{fontSize:'0.6rem', color:'blue'}} >Applied for Marketing Manage</span>
                     </div>
                     <div><ImMail4 style={{margin:'0 1rem'}} /></div>
@@ -55,7 +55,7 @@ const NewApp = () => {
                 <div className="applicant" >
                     <div><CgProfile style={{fontSize:'2rem'}} /></div>
                     <div style={{flex:'1', margin:'0 1rem'}} >
-                        <span style={{fontSize:'1rem'}} >Rosie Metts</span> <br/>
+                        <span style={{fontSize:'1rem'}} >Danny Watson</span> <br/>
                         <span style={{fontSize:'0.6rem', color:'blue'}} >Applied for Marketing Manage</span>
                     </div>
                     <div><ImMail4 style={{margin:'0 1rem'}} /></div>
@@ -64,7 +64,7 @@ const NewApp = () => {
                 <div className="applicant" >
                     <div><CgProfile style={{fontSize:'2rem'}} /></div>
                     <div style={{flex:'1', margin:'0 1rem'}} >
-                        <span style={{fontSize:'1rem'}} >Rosie Metts</span> <br/>
+                        <span style={{fontSize:'1rem'}} >Reha Scarlett</span> <br/>
                         <span style={{fontSize:'0.6rem', color:'blue'}} >Applied for Marketing Manage</span>
                     </div>
                     <div><ImMail4 style={{margin:'0 1rem'}} /></div>
