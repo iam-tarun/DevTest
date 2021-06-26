@@ -5,7 +5,7 @@ import {ImArrowUpRight} from 'react-icons/im'
 
 const Referrals = () => {
     return (
-        <div className="referrals" >
+        <div data-testid="referrals" className="referrals" >
             <div className="referralsHeadings" >
                     <span style={{flex:'1', fontWeight:'600'}} >Referrals and Campaign Stats</span>
                     <div>

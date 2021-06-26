@@ -13,7 +13,7 @@ const Shortlist = () => {
     const percentage = 60;
 
     return (
-        <div className="shortlist" >
+        <div data-testid="shortlist" className="shortlist" >
             <div className="shortlistHeadings">
                 <span>Shortlisted Candidates</span>
                 <BiDotsHorizontalRounded className="dropdown" style={{fontSize:'1.4rem'}} />

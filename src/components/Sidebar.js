@@ -10,7 +10,7 @@ import {FiSettings} from 'react-icons/fi'
 
 const Sidebar = () => {
     return (
-        <div className="sidebar">
+        <div data-testid="sidebar" className="sidebar">
             <div className="logo">
                 <DiJqueryLogo />
             </div>

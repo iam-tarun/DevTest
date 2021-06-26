@@ -7,7 +7,7 @@ import {ImMail4} from 'react-icons/im'
 import {IoCall} from 'react-icons/io5'
 const NewApp = () => {
     return (
-        <div className="newApp" >
+        <div data-testid='newApp' className="newApp" >
             <h4>Hello John Bayer,</h4>
             <h5>You Have 8 New Applications Today !</h5>
             <OpenSVG style={{height:'150px', width:'130px'}} />

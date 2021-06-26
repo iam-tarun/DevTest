@@ -33,7 +33,7 @@ const data = {
 
 const AppGraph = () => {
     return (
-        <div className="appGraph">
+        <div data-testid="appGraphComponent" className="appGraph">
            <div className="graphTabs">
                 <div><span>Applications Recieved</span></div>
                 <div className="options">
@@ -45,7 +45,7 @@ const AppGraph = () => {
                 </div>
             </div>
            <div>
-                <Bar data={data} height={120} />
+               {window.onload = () => (<Bar data={data} height={120} />)} 
            </div>
         </div>
     )

@@ -11,7 +11,7 @@ const TotalApps = () => {
     const percentage = 70;
 
     return (
-        <div className="totalApps">
+        <div data-testid='totalApps' className="totalApps">
             <div className="top">
                 <span>Total Applications</span>
                 <BiDotsHorizontalRounded className="dropdown" style={{fontSize:'1.4rem'}} />

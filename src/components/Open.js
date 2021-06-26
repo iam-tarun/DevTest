@@ -25,12 +25,12 @@ const data = {
 
 const Open = () => {
     return (
-        <div className="open">
+        <div data-testid="openComponent" className="open">
             <div className="openTab">
                 <div><span style={{fontSize:'0.6rem', fontWeight:'600'}} >Open Positions by Department</span></div>
                 <div><BiDotsHorizontalRounded className="dropdown" style={{fontSize:'1.4rem'}} /></div>
             </div>
-            <Doughnut data={data} />
+            {window.onload = () => (<Doughnut data={data} />)}
         </div>
     )
 }

@@ -5,7 +5,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 
 const AppBarGraph = () => {
     return (
-        <div className="appBarGraph">
+        <div data-testid="appBarGraph" className="appBarGraph">
             <div className="barGraphTab" ><span>Total Applications</span></div>
             <div className="barItem">
             <li>Applications</li>

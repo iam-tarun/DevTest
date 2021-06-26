@@ -6,7 +6,7 @@ import user from '../static/user.jpg'
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div data-testid="navbar" className="navbar">
             <div className="notifications"><MdNotifications/></div>
             <div className="user"><span>John Bayer</span></div>
             <div className="profile">
