@@ -1,3 +1,11 @@
+### Testing
+
+Files regarding to tests are present in './src/components/tests' folder.
+
+### About the App.
+
+Contains total 10 componets for a Dashboard page and also has the Server Side Rendering Facility
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
